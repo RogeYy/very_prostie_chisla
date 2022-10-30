@@ -16,9 +16,11 @@ int main()
 		if (count_num == 0) count += 1;
 	}
 
+	if (num <= 1) cout << "not simple ";
 
-	if (count > 2) cout << "not simple ";
+	else if (count > 2) cout << "not simple ";
 
 	else cout << "simple ";
 
 }
+
